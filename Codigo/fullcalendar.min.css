@@ -12,13 +12,36 @@
   nav p {
     font-size: 2em;
     font-family: 'Sorts Mill Goudy', serif;
-
+    color: white;
     display: inline-block;
-    margin-top: 40px;
-
+    margin-top: 0px;
+}
+li:hover{
+	background-color: white;
 }
 
+li{
+	background-color: pink;
+	list-style: none;
+	margin-right: 30px;
+	margin-top: 25px;
+	border-radius: 1em;
+	width: 100px;
+	height: 40px;
+	float: right;
+}
+
+.login-buttom{
+	color: black;
+	margin-left: 25px;
+	
+ }
 nav img{
 	height: 100px;
 	width: 100px;
+	background-color: white;
+}
+
+.navegador{
+	background-color: blue;
 }
