@@ -1,0 +1,132 @@
+body{
+    background: url(estaticos/IMG_0011-051119.jpg) no-repeat center center fixed;
+    /*background:whitesmoke;*/
+    background-size: cover;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+.navegador{
+   background-color:#e3e3f8;
+   min-height: 56px;
+   
+}
+
+
+.navegador img {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 10px;    /* if you want it vertically middle of the navbar. */
+}
+
+
+nav p {
+    font-size: 2em;
+    font-family: 'Sorts Mill Goudy', serif;
+
+    display: inline-block;
+    margin-top: 40px;
+
+
+
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+
+h2{
+    font-family: inherit;
+    color: inherit;
+    margin-bottom: 30px;
+}
+
+footer{
+   
+    background-color:#e3e3f8;
+    color:#D7DEE6;
+}
+
+.social-links{
+    list-style: none;
+    padding: 0;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center}
+
+
+
+.social-links li a{
+    color: rgb(16, 17, 17);
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+}
+
+footer p {
+    color :black;
+    margin: 0;
+    padding:0 ;
+}
+

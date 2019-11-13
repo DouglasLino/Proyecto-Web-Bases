@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Nuestro css-->
+    <link rel="stylesheet" href="login.css" />
+
+ 
+
+
+</head>
+
+<body>
+   
+    <nav class="navegador">
+
+        <img src="estaticos/logo/logo_transparent.png" alt="logopng">
+        <p>Departamento de electronica e informatica </p>
+    </nav>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="estaticos/avatar-icon-png-8.jpg">
+                </div>
+                <h2>Acceda a su cuenta </h2>
+                <form class="col-12">
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="usuario" name="usuario" id="usuario" />
+                    </div>
+                    <div class="form-group" id="contrasena-group">
+                        <input type="password" class="form-control" placeholder="clave" name="clave" id="clave" />
+                    </div>
+                    <button type="submit" class="ingresar" id=ingresar><i class="fas fa-sign-in-alt"></i>
+                        Ingresar </button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+
+        <ul class="social-links">
+            <li>
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" alt="twitter logo">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <p>Copyright 2019 INFRA WEB. All Rights Reserved</p>
+
+    </footer>
+    
+</body>
+<script src="login.js"></script>
+
+</html>
