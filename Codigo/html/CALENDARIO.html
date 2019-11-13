@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendario</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="/Codigo/js/jquery.min.js"></script>
+	<script src="/Codigo/js/moment.min.js"></script>
+	<!--Full Calendar -->
+	<script src="/Codigo/js/fullcalendar.min.js"></script>
+	<link rel="stylesheet" href="/Codigo/css/fullcalendar.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+	
+</head>
+<body>
+<nav class="navegador">
+
+        <img src="/Codigo/estaticos/logo/logo_transparent.png" alt=>
+        <p>Departamento de electronica e informatica </p>
+        <li class="login">
+            <a class="login-buttom" href="/Codigo/html/login.html">Log in</a>
+    </nav>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-7"><div id="CalendarioWeb"></div></div>
+			<div class="col"></div>
+		</div>
+	</div>
+	
+<script>
+	$(document).ready(function(){
+		$('#CalendarioWeb').fullCalendar();
+	});
+</script>
+
+</body>
+</html>
