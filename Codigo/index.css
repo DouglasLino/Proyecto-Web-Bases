@@ -105,15 +105,16 @@
     letter-spacing: 0.8rem;
     background: -webkit-linear-gradient(black); /*color del h1 donde dice infraweb  */
     -webkit-text-fill-color: black;
-    -webkit-text-shadow: white;
     text-shadow: 0.1em 0.1em white;
     -webkit-background-clip: text;
   }
   
   .masthead h2 {
+    margin-top: 1em;
     max-width: 20rem;
     font-size: 1rem;
-   
+    -webkit-text-fill-color: white;
+    text-shadow: 0.09em 0.09em black;
   }
 
   
@@ -178,14 +179,15 @@
 
   }
 
-  
 
   .about-section p {
     margin-bottom: 5rem;
     font-size: 25px;
-
   }
-  
+
+  .text-white-50{
+  color:white;
+}  
   .projects-section {
     padding: 10rem 0;
   }
