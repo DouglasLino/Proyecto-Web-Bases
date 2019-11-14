@@ -10,6 +10,7 @@ $(document).ready(function(){
 				alert("Valor seleccionado: "+date.format());
 				alert("Vista actual"+view.name);
 				$(this).css('background-color', 'red');
+				$("#exampleModal").modal();
 			}
 				/*Este codigo es por si se quiere agregar un botton al calendario
 			customButtons:{

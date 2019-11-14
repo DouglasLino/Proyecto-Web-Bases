@@ -9,6 +9,10 @@
 	<script src="fullcalendar.min.js"></script>
 	<link rel="stylesheet" href="fullcalendar.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 	<script src="calendario.js"></script>
 </head> 
 <body>
@@ -29,6 +33,29 @@
 		</div>
 	</div>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Reserva de Laboratorio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="radio" name="horario" value="1"> 9am -11am <br>
+        <input type="radio" name="horario" value="2"> 11am -1pm <br>
+        <input type="radio" name="horario" value="3"> 1:30pm -3:30pm <br>
+        <input type="radio" name="horario" value="4"> 3:30pm -5:30pm <br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-success">Reservar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
